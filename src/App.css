@@ -1,0 +1,23 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  display: grid;
+}
+
+body {
+background-image: url(./Images/mountain-opacity.png);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 100vh;
+}
+
+.landing {
+  height: 100vh;
+}
+
+.main{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(224, 224, 224, 0.8);
+}
