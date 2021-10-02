@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "image": "./Images/GroceryGrab.png",
+        "name": "Grocery Grab",
+        "description": "GroceryGrab allows users to create and save a grocery list.",
+        "site": "https://tranquil-bastion-55254.herokuapp.com/",
+        "github": "https://github.com/jeffgcameron/GroceryGrab"
+    },
+    {
+        "id": 2,
+        "image": "./Images/GroceryGrab.png",
+        "name": "CineMunch",
+        "description": "CineMunch helps users choose movies and local restaurant options.",
+        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "github": "https://github.com/jeffgcameron/CineMunch"
+    },
+    {
+        "id": 3,
+        "image": "./Images/GroceryGrab.png",
+        "name": "DevDash",
+        "description": "Social media app that helps connects new developers.",
+        "site": "https://devdashboard.herokuapp.com/",
+        "github": "https://github.com/jeffgcameron/DevDash"
+    },
+    {
+        "id": 4,
+        "image": "./Images/GroceryGrab.png",
+        "name": "CineMunch",
+        "description": "CineMunch helps users choose movies and local restaurant options.",
+        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "github": "https://github.com/jeffgcameron/CineMunch"
+    },
+    {
+        "id": 5,
+        "image": "./Images/GroceryGrab.png",
+        "name": "CineMunch",
+        "description": "CineMunch helps users choose movies and local restaurant options.",
+        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "github": "https://github.com/jeffgcameron/CineMunch"
+    },
+    {
+        "id": 6,
+        "image": "./Images/GroceryGrab.png",
+        "name": "CineMunch",
+        "description": "CineMunch helps users choose movies and local restaurant options.",
+        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "github": "https://github.com/jeffgcameron/CineMunch"
+    },
+    {
+        "id": 7,
+        "image": "./Images/GroceryGrab.png",
+        "name": "CineMunch",
+        "description": "CineMunch helps users choose movies and local restaurant options.",
+        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "github": "https://github.com/jeffgcameron/CineMunch"
+    },
+    {
+        "id": 8,
+        "image": "./Images/GroceryGrab.png",
+        "name": "CineMunch",
+        "description": "CineMunch helps users choose movies and local restaurant options.",
+        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "github": "https://github.com/jeffgcameron/CineMunch"
+    },
+    {
+        "id": 9,
+        "image": "./Images/GroceryGrab.png",
+        "name": "CineMunch",
+        "description": "CineMunch helps users choose movies and local restaurant options.",
+        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "github": "https://github.com/jeffgcameron/CineMunch"
+    }
+
+]

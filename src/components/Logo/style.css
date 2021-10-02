@@ -1,17 +1,15 @@
 .logo-center {
-    display: block;
-    margin: auto;
-    width: 30%;
+  display: block;
+  margin: auto;
+  width: 30%;
 }
 
 hr {
-    background-image: url(../../Images/mountain-opacity.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 3px;
-    border-style: none;
+  background-image: url(../../Images/mountain-opacity.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 3px;
+  border-style: none;
 }
-
-
 

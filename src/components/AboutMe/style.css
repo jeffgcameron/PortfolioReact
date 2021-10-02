@@ -54,3 +54,28 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+@media screen and (max-width: 768px) {
+
+   
+    .about-p {
+        margin-top: 20px;
+    }
+
+    .about-me-pic {
+        max-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-me-area {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-me-pic {
+        margin-top: 20px;
+    }
+
+}
