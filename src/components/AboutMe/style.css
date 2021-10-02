@@ -1,0 +1,56 @@
+#about-me {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
+.section-div {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 20vh;
+    width: 100%;
+}
+
+.section{
+    margin: auto;
+    margin-top: 25px;
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color:  rgb(43, 43, 43);
+
+}
+
+.space {
+    width: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.about-me-pic {
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    margin-bottom: 0;
+}
+
+.about-me-text {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+.about-me-area {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
