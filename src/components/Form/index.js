@@ -31,7 +31,7 @@ function Form() {
         <input
           type="hidden"
           name="_next"
-          value="https://jeffgcameron.github.io/PortfolioSite/thanks"
+          value="none"
         />
         <input
           type="email"
