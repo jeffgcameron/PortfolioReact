@@ -7,7 +7,8 @@ import "./style.css";
 function LogoLine() {
   return (
     <div>
-      <Grid container>
+      <Grid container
+      alignItems="center">
         <Grid item xs={4} md={5}>
           <hr className="logo-line" />
         </Grid>

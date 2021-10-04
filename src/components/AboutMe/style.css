@@ -1,81 +1,64 @@
 #about-me {
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: 0;
-}
-
-.section-div {
-    display: block;
-    text-align: center;
-    margin: auto;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    line-height: 20vh;
-    width: 100%;
-}
-
-.section{
-    margin: auto;
-    margin-top: 25px;
-    font-size: 50px;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    color:  rgb(43, 43, 43);
-
-}
-
-.space {
-    width: 50px;
-    margin-bottom: 50px;
-    margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 0;
 }
 
 .about-me-pic {
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover !important;
+  padding-right: 20px;
 }
 
 .title {
-    font-size: 20px;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    color: rgb(43, 43, 43);
-    margin-bottom: 0;
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  color: rgb(43, 43, 43);
+  margin-bottom: 0;
+}
+
+.vertical-center {
+  margin: auto;
 }
 
 .about-me-text {
-    font-family: 'Poppins', sans-serif;
-    margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+}
+
+.about-me-row {
+    justify-content: center;
+    align-items: center;
 }
 
 .about-me-area {
-    margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
+  display: block;
+  margin: auto;
+  margin-right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
+  .about-p {
+    margin-top: 20px;
+  }
 
-   
-    .about-p {
-        margin-top: 20px;
-    }
+  .about-me-pic {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .about-me-pic {
-        max-width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .about-me-area {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-    .about-me-area {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .about-me-pic {
-        margin-top: 20px;
-    }
-
+  .about-me-pic {
+    margin-top: 20px;
+  }
 }

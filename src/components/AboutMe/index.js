@@ -6,14 +6,12 @@ import "./style.css";
 function AboutMe() {
   return (
     <div>
-      <div id="about-me" className="about-me-div section-div ">
-        <p className="section">About Me</p>
-        <hr className="logo-line space" />
-      </div>
-      <Grid container>
+      <Grid
+        container
+        alignItems="center"
+      >
         <Grid item md={9} sm={12}>
-          {/* <div id="about-me" className="row about-me-row"> */}
-          <div className="col-sm-12 col-md-9  about-me-area">
+          <div className=" about-me-area">
             <p className="title">Personal Info</p>
             <p className="about-me-text">
               Hi my name is Jeff and I am a web developer living in Jackson, WY.
@@ -40,13 +38,8 @@ function AboutMe() {
             </p>
           </div>
         </Grid>
-        <Grid item md={3} sm={12} className="about-me-pic">
-          <img
-            className="about-me-pic"
-            src={AboutMePic}
-            alt="About Me"
-          ></img>
-          {/* </div> */}
+        <Grid item md={3} sm={12}>
+          <img className="about-me-pic" src={AboutMePic} alt="About Me"></img>
         </Grid>
       </Grid>
     </div>

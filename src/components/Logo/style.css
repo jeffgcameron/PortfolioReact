@@ -9,7 +9,8 @@ hr {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 3px;
+  height: 4px !important;
   border-style: none;
+  opacity: 1 !important;
 }
 

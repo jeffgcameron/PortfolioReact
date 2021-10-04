@@ -1,0 +1,29 @@
+.section-div {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* line-height: 20vh; */
+    width: 100%;
+}
+
+.section{
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color:  rgb(43, 43, 43);
+
+}
+
+.space {
+    width: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -7,36 +7,32 @@ import "./style.css";
 
 function ProjectCard(props) {
   return (
-    // <Grid container>
-      <Grid item sm={12} md={3} className="card-grid">
-        <a
-          className="card-content"
-          href={props.site}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="card">
-            <div className="card-col">
-              {/* <div className="card"> */}
-              <img alt={props.name} src={props.image}></img>
-              <div className="card-body">
-                <h5 className="card-title">{props.name}</h5>
-                <p className="card-text">{props.description}</p>
-              </div>
-              <div className="media">
-                <a a target="_blank" rel="noreferrer" href={props.site}>
-                  <FontAwesomeIcon icon={faGlobeAmericas} />
-                </a>
-                <a a target="_blank" rel="noreferrer" href={props.github}>
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
-              </div>
-              {/* </div> */}
+    <Grid item sm={12} md={4} className="card-grid">
+      <div className="card">
+        <div className="card-col">
+          <a
+            className="card-content"
+            href={props.site}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img alt={props.name} src={props.image}></img>
+            <div className="card-body">
+              <h5 className="card-title">{props.name}</h5>
+              <p className="card-text">{props.description}</p>
             </div>
+          </a>
+          <div className="media">
+            <a a target="_blank" rel="noreferrer" href={props.site}>
+              <FontAwesomeIcon icon={faGlobeAmericas} className="site-link" />
+            </a>
+            <a a target="_blank" rel="noreferrer" href={props.github}>
+              <FontAwesomeIcon icon={faGithub} className="site-link" />
+            </a>
           </div>
-        </a>
-      </Grid>
-    // </Grid>
+        </div>
+      </div>
+    </Grid>
   );
 }
 

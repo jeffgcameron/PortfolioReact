@@ -1,3 +1,5 @@
+
+
 [
     {
         "id": 1,
@@ -26,50 +28,50 @@
     {
         "id": 4,
         "image": "./Images/GroceryGrab.png",
-        "name": "CineMunch",
-        "description": "CineMunch helps users choose movies and local restaurant options.",
-        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
-        "github": "https://github.com/jeffgcameron/CineMunch"
+        "name": "Destination Connection",
+        "description": "Boutique destination management provider.",
+        "site": "https://destinationconnection.services/",
+        "github": "https://github.com/jeffgcameron/DestinationConnection"
     },
     {
         "id": 5,
         "image": "./Images/GroceryGrab.png",
-        "name": "CineMunch",
-        "description": "CineMunch helps users choose movies and local restaurant options.",
-        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
-        "github": "https://github.com/jeffgcameron/CineMunch"
+        "name": "Tech Blog",
+        "description": "This app allowes users to sign in, or sign up, and create blog posts.",
+        "site": "https://salty-reef-93783.herokuapp.com/",
+        "github": "https://github.com/jeffgcameron/TechBlog"
     },
     {
         "id": 6,
         "image": "./Images/GroceryGrab.png",
-        "name": "CineMunch",
-        "description": "CineMunch helps users choose movies and local restaurant options.",
-        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
-        "github": "https://github.com/jeffgcameron/CineMunch"
+        "name": "Employee Directory",
+        "description": "Use this Directoy to serach for employees or filter by name.",
+        "site": "https://jeffgcameron.github.io/React-Directory/",
+        "github": "https://github.com/jeffgcameron/React-Directory"
     },
     {
         "id": 7,
         "image": "./Images/GroceryGrab.png",
-        "name": "CineMunch",
-        "description": "CineMunch helps users choose movies and local restaurant options.",
-        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
-        "github": "https://github.com/jeffgcameron/CineMunch"
+        "name": "README Generator",
+        "description": "Generate a professional README file using node.js.",
+        "site": "https://vimeo.com/519766263",
+        "github": "https://github.com/jeffgcameron/ReadMeGenerator"
     },
     {
         "id": 8,
         "image": "./Images/GroceryGrab.png",
-        "name": "CineMunch",
-        "description": "CineMunch helps users choose movies and local restaurant options.",
-        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
-        "github": "https://github.com/jeffgcameron/CineMunch"
+        "name": "Password Generator",
+        "description": "Generate a password based on your own chosen criteria.",
+        "site": "https://jeffgcameron.github.io/Password-Generator/",
+        "github": "https://github.com/jeffgcameron/Password-Generator"
     },
     {
         "id": 9,
         "image": "./Images/GroceryGrab.png",
-        "name": "CineMunch",
-        "description": "CineMunch helps users choose movies and local restaurant options.",
-        "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
-        "github": "https://github.com/jeffgcameron/CineMunch"
+        "name": "Quiz",
+        "description": "How well do you know me? Take this multiple choice quiz to find out!",
+        "site": "https://jeffgcameron.github.io/JavascriptQuiz/",
+        "github": "https://github.com/jeffgcameron/JavascripQuiz"
     }
 
 ]

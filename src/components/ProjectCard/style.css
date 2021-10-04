@@ -12,10 +12,15 @@
     margin-left: auto;
     margin-right: auto;
     height: 100%;
+    width: 75%;
     opacity: 1;
-    text-decoration: none;
-    background-color: rgba(105, 124, 160, 0.25);
-    border-style: none;
+    background-color: rgba(105, 124, 160, 0.25) !important;
+    border-style: none !important;
+}
+
+.card-content {
+    height: 100% !important;
+    width: 75% !important;
 }
 
 .card:hover {
@@ -42,14 +47,26 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .media {
     display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.site-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    color:rgb(49, 84, 119);
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.site-link:hover {
+    color: rgb(43, 43, 43);
+}
+
+

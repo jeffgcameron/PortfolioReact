@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-color: rgb(49, 84, 119);
-    height: 50px;
+    /* height: 5vh; */
 }
 
 nav {
@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
+    /* height: 5vh; */
     flex-wrap: wrap;
 }
 
@@ -25,7 +25,7 @@ nav {
 }
 
 .nav-link {
-    color: rgb(214, 214, 214); 
+    color: rgb(214, 214, 214) !important; 
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
@@ -44,7 +44,7 @@ li {
 }
 
 .nav-link:hover {
-    color: rgb(43, 43, 43);
+    color: rgb(43, 43, 43) !important;
 }
 
 .dropdown {
@@ -64,4 +64,26 @@ li {
 
 .header-line {
     margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .dropdown {
+        display: flex;
+    }
+    .full {
+        display: none;
+    }
+    .dropdown-menu {
+        opacity: 75%;
+    }
+
+    .dropdown-item {
+       font-family: 'Lora', serif;
+    }
+
+    .dropdown-item:hover {
+        opacity: 100%;
+        font-weight: bolder;
+    }
 }

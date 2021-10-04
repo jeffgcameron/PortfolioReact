@@ -1,0 +1,56 @@
+form {
+    width: 75%;
+    margin: auto;
+}
+
+
+#email-input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(35, 31, 32);
+    font-size: 15px !important;
+  }
+
+textarea:focus,
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input[type="email"]:focus {
+  border-style: none;
+  box-shadow: 0 0 8px rgb(49, 84, 119);
+  outline: 0 none;
+}
+
+.first-pad {
+    padding-right: 2.5px !important;
+}
+  
+.last-pad {
+    padding-left: 2.5px !important;
+}
+
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    color:  rgba(214, 214, 214) !important;
+    background-color: rgb(49, 84, 119) !important;
+    border-style: none !important;
+    font-family: 'Poiret One', cursive;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-weight: bolder !important;
+}
+
+.btn:hover {
+  background-color: rgb(214, 214, 214) !important;
+  color: rgb(49, 84, 119) !important;
+  }

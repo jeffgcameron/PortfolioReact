@@ -1,0 +1,11 @@
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.btn-success:focus {
+    box-shadow: none !important;
+}
