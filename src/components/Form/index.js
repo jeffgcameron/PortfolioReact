@@ -28,11 +28,11 @@ function Form() {
             />
           </div>
         </div>
-        <input
+        {/* <input
           type="hidden"
           name="_next"
-          value="none"
-        />
+          value="https://jeffgcameron.github.io/PortfolioSite/thanks"
+        /> */}
         <input
           type="email"
           name="email"
