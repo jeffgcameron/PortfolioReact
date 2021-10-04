@@ -9,13 +9,28 @@ import SectionHeader from "../components/SectionHeaders/index";
 import Form from "../components/Form/index"
 import Footer from "../components/Footer/index"
 
+import GroceryGrab from "../Images/GroceryGrab.png"
+import CineMunch from "../Images/CineMunch.png"
+import DevDash from "../Images/DevDash.png"
+import DCS from "../Images/DCScreenshot.png"
+import Tech from "../Images/TechBlog.png"
+import Directory from "../Images/EmployeeDirectory.png"
+import ReadMe from "../Images/README.png"
+import Password from "../Images/Password.png"
+import Quiz from "../Images/Quiz.png"
+
+
 import projects from "../projects.json";
 import headers from "../headers.json";
+
+const images = [GroceryGrab, CineMunch, DevDash, DCS, Tech, Directory, ReadMe, Password, Quiz];
 
 class HomePage extends Component {
   state = {
     projects,
   };
+
+
 
   render() {
     return (
@@ -30,10 +45,10 @@ class HomePage extends Component {
           <AboutMe />
           <SectionHeader id="portfolio" name={headers[1].name} />
           <Wrapper>
-            {this.state.projects.map((projects) => (
+            {this.state.projects.map((projects, index) => (
               <ProjectCard
                 key={projects.id}
-                image={projects.image}
+                image={images[index]}
                 name={projects.name}
                 description={projects.description}
                 site={projects.site}

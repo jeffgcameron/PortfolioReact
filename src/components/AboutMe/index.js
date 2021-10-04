@@ -38,7 +38,7 @@ function AboutMe() {
             </p>
           </div>
         </Grid>
-        <Grid item md={3} sm={12}>
+        <Grid item md={3} sm={12} className="pic-full">
           <img className="about-me-pic" src={AboutMePic} alt="About Me"></img>
         </Grid>
       </Grid>

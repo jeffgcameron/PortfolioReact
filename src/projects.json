@@ -1,9 +1,6 @@
-
-
 [
     {
         "id": 1,
-        "image": "./Images/GroceryGrab.png",
         "name": "Grocery Grab",
         "description": "GroceryGrab allows users to create and save a grocery list.",
         "site": "https://tranquil-bastion-55254.herokuapp.com/",
@@ -11,7 +8,6 @@
     },
     {
         "id": 2,
-        "image": "./Images/GroceryGrab.png",
         "name": "CineMunch",
         "description": "CineMunch helps users choose movies and local restaurant options.",
         "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
@@ -19,7 +15,6 @@
     },
     {
         "id": 3,
-        "image": "./Images/GroceryGrab.png",
         "name": "DevDash",
         "description": "Social media app that helps connects new developers.",
         "site": "https://devdashboard.herokuapp.com/",
@@ -27,7 +22,6 @@
     },
     {
         "id": 4,
-        "image": "./Images/GroceryGrab.png",
         "name": "Destination Connection",
         "description": "Boutique destination management provider.",
         "site": "https://destinationconnection.services/",
@@ -35,7 +29,6 @@
     },
     {
         "id": 5,
-        "image": "./Images/GroceryGrab.png",
         "name": "Tech Blog",
         "description": "This app allowes users to sign in, or sign up, and create blog posts.",
         "site": "https://salty-reef-93783.herokuapp.com/",
@@ -43,7 +36,6 @@
     },
     {
         "id": 6,
-        "image": "./Images/GroceryGrab.png",
         "name": "Employee Directory",
         "description": "Use this Directoy to serach for employees or filter by name.",
         "site": "https://jeffgcameron.github.io/React-Directory/",
@@ -51,7 +43,6 @@
     },
     {
         "id": 7,
-        "image": "./Images/GroceryGrab.png",
         "name": "README Generator",
         "description": "Generate a professional README file using node.js.",
         "site": "https://vimeo.com/519766263",
@@ -59,7 +50,6 @@
     },
     {
         "id": 8,
-        "image": "./Images/GroceryGrab.png",
         "name": "Password Generator",
         "description": "Generate a password based on your own chosen criteria.",
         "site": "https://jeffgcameron.github.io/Password-Generator/",
@@ -67,7 +57,6 @@
     },
     {
         "id": 9,
-        "image": "./Images/GroceryGrab.png",
         "name": "Quiz",
         "description": "How well do you know me? Take this multiple choice quiz to find out!",
         "site": "https://jeffgcameron.github.io/JavascriptQuiz/",

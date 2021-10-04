@@ -16,6 +16,13 @@
     opacity: 1;
     background-color: rgba(105, 124, 160, 0.25) !important;
     border-style: none !important;
+    border-radius: 0px !important;
+}
+
+.card-image {
+    width: 100%;
+    padding: 5px;
+    border-radius: 0px;
 }
 
 .card-content {
@@ -37,10 +44,10 @@
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
 }
-
+/* 
 .card-col {
     padding-top: 25px;
-}
+} */
 
 .card-text, .card-title {
     color: rgb(43, 43, 43);
