@@ -3,6 +3,18 @@ import "./style.css";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Form() {
+
+let formSuccess = document.getElementById("#form-success")
+let first = document.getElementById("#first-name") 
+let formResponse = document.getElementById("#response")
+
+function formSubmit() {
+  // if (first) {
+    console.log("great success!");
+  // }
+}
+
+
   return (
     <div>
       <form action="https://formsubmit.co/jeffgcameron@gmail.com" method="POST">
@@ -28,11 +40,11 @@ function Form() {
             />
           </div>
         </div>
-        {/* <input
+        <input
           type="hidden"
           name="_next"
-          value="https://jeffgcameron.github.io/PortfolioSite/thanks"
-        /> */}
+          value="https://jeffgcameron.github.io/ReactPortfolio"
+        />
         <input
           type="email"
           name="email"
@@ -61,9 +73,10 @@ function Form() {
             required
           ></textarea>
         </div>
-        <button type="submit" value="Send" className="btn btn-primary">
+        <button type="submit" value="Send" id ="form-success" onClick ="formSubmit()" className=" btn btn-primary">
           Submit
         </button>
+        <div id="response"></div>
       </form>
     </div>
   );

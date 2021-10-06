@@ -5,7 +5,7 @@
 Build Using React. This site is used to display my portfolio, contact information, social media, and resume. It also gives a breif description of my hobbies and background.
 
 ### Application Link
-https://jeffgcameron.github.io/ReactPortfolio/
+https://jeffgcameron.github.io/PortfolioReact/
 
 ## Application Screenshot
 ![Jeff Cameron Portfolio](./Assets/Images/screenshot.png)
