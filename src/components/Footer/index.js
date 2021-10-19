@@ -1,7 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
-import {faGithub, faInstagram, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
 import "./style.css";
 
 function Footer() {
@@ -10,44 +14,39 @@ function Footer() {
       <footer className="port-footer">
         <div className="media media-top">
           <a
-            a
             target="_blank"
             rel="noopener noreferrer"
             href="mailto: jeffgcameron@gmail.com"
           >
-            <FontAwesomeIcon icon={faEnvelope} className="social"/>
-    
+            <FontAwesomeIcon icon={faEnvelope} className="social" />
           </a>
-          </div>
-          <a className="info" href="mailto: jeffgcameron@gmail.com">
-            {" "}
-            jeffgcameron@gmail
-          </a>
+        </div>
+        <a className="info" href="mailto: jeffgcameron@gmail.com">
+          {" "}
+          jeffgcameron@gmail
+        </a>
 
         <div className="media media-bottom">
           <a
-            a
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/jeffgcameron"
           >
-            <FontAwesomeIcon icon={faGithub} className="social"/>
+            <FontAwesomeIcon icon={faGithub} className="social" />
           </a>
           <a
-            a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.instagram.com/mynamesjefph/"
           >
-            <FontAwesomeIcon icon={faInstagram} className="social"/>
+            <FontAwesomeIcon icon={faInstagram} className="social" />
           </a>
           <a
-            a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/jeffgcameron/"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} className="social"/>
+            <FontAwesomeIcon icon={faLinkedinIn} className="social" />
           </a>
         </div>
       </footer>

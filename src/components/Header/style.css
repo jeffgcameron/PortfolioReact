@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-color: rgb(49, 84, 119);
-    /* height: 5vh; */
+    line-height: 3vh;
 }
 
 nav {

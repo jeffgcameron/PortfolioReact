@@ -23,10 +23,10 @@ function ProjectCard(props) {
             </div>
           </a>
           <div className="media">
-            <a a target="_blank" rel="noreferrer" href={props.site}>
+            <a target="_blank" rel="noreferrer" href={props.site}>
               <FontAwesomeIcon icon={faGlobeAmericas} className="site-link" />
             </a>
-            <a a target="_blank" rel="noreferrer" href={props.github}>
+            <a target="_blank" rel="noreferrer" href={props.github}>
               <FontAwesomeIcon icon={faGithub} className="site-link" />
             </a>
           </div>

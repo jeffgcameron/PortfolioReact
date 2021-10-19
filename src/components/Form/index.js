@@ -4,15 +4,13 @@ import "./style.css";
 
 function Form() {
 
-let formSuccess = document.getElementById("#form-success")
-let first = document.getElementById("#first-name") 
-let formResponse = document.getElementById("#response")
+// let formSuccess = document.getElementById("#form-success")
+// let first = document.getElementById("#first-name") 
+// let formResponse = document.getElementById("#response")
 
-function formSubmit() {
-  // if (first) {
-    console.log("great success!");
-  // }
-}
+// function formSubmit() {
+//     console.log("great success!");
+// }
 
 
   return (
@@ -73,7 +71,7 @@ function formSubmit() {
             required
           ></textarea>
         </div>
-        <button type="submit" value="Send" id ="form-success" onClick ="formSubmit()" className=" btn btn-primary">
+        <button type="submit" value="Send" id ="form-success" className=" btn btn-primary">
           Submit
         </button>
         <div id="response"></div>
