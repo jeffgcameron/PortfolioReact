@@ -1,49 +1,186 @@
-.propic {
-    height: 50vh;
-    display: block;
-    margin-top: 15vh;
-    margin-right: auto;
-    margin-left: auto;
-    border-style: solid;
-    border-radius: 100%;
-    border-color: rgb(200, 200, 200); 
-    border-width: 1;
+.overlay {
+  position: relative;
+  width: 50vh;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
 }
 
+.propic {
+  /* width: 100%; */
+  width: 50vh;
+  height: 50vh;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  /* border-style: solid;
+    border-radius: 100%;
+    border-color: rgba(200, 200, 200, 0);
+    border-width: 1; */
+}
+
+.image-icon-container {
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50% !important;
+}
+
+.top-icon-container {
+    height: 100%;
+}
+.bottom-icon-container {
+   height: 100%;
+}
+
+.icon-divider {
+position: absolute;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  opacity: 0;
+  transition: opacity 0.25s;
+  height: 50vh;
+}
+
+.image_overlay:hover {
+    opacity: 1;
+  }
+
+/* .image-bottom > * {
+    transform: translateY(1vh);
+    transition: transform 0.25s;
+}
+
+.image-bottom:hover > * {
+    transform: translateY(0);
+}
+
+.image-top > * {
+    transform: translateY(-1vh);
+    transition: transform 0.25s;
+}
+
+.image-top:hover > * {
+    transform: translateY(0);
+}
+
+.image-right > * {
+    transform: translateY(-1vh);
+    transition: transform 0.25s;
+}
+
+.image-right:hover > * {
+    transform: translateY(0);
+} */
+
+.propic-link {
+    color: aliceblue !important;
+    opacity: .75;
+}
+
+.propic-link:hover {
+   opacity: 1;
+   
+}
+
+.cross {
+    position:relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross:before, .cross:after{
+    content:'';
+    position:absolute;
+    width:35vh;
+    height:4px;
+    background-color:white;
+    opacity: .75;
+    border-radius:2px;
+    bottom:10px;
+}
+
+.cross:before{
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.cross:after{
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+
+
+.image-info {
+  text-align: center;
+}
+
+
+
 h1 {
-    position: relative;
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold !important;
-    font-size: 10vh !important;
-    color: rgb(43, 43, 43);
-    margin-bottom: 0;
-    margin-top: 0;
+  position: relative;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-weight: bold !important;
+  font-size: 10vh !important;
+  color: rgb(43, 43, 43);
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 h2 {
-    position: relative;
-    font-size: 6vh !important;
-    font-weight: bold !important;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: rgb(43, 43, 43);
-    font-family: 'Poiret One', cursive;
-    padding-bottom: 20px;
+  position: relative;
+  font-size: 6vh !important;
+  font-weight: bold !important;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: rgb(43, 43, 43);
+  font-family: "Poiret One", cursive;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 520px) {
-    .propic {
-        margin-top: 10vh;
-        height: 40vh;
-    }
-
-    h1 {
-        font-size: 7vh !important;
-    }
-
-    h2 {
-        font-size: 4vh !important;
-    }
+  .propic  {
+    margin-top: 10vh;
+    height: 40vh;
   }
+  .image_overlay {
+    height: 40vh;
+  }
+
+  .cross:before, .cross:after{
+    content:'';
+    position:absolute;
+    width:30vh;
+    height:4px;
+    background-color:white;
+    border-radius:2px;
+    bottom:10px;
+  }
+
+  h1 {
+    font-size: 7vh !important;
+  }
+
+  h2 {
+    font-size: 4vh !important;
+  }
+}
