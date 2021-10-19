@@ -8,7 +8,7 @@ function Header() {
     return (
         <header>
         <nav>
-                <img className= "logo-style" src={Logo} height="40px" alt="logo"/>
+                <img className= "logo-style" src={Logo} alt="logo"/>
             
             <span className="navbar-text">
                 <ul className="nav">

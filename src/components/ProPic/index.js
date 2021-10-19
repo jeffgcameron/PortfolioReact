@@ -5,22 +5,22 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import { makeStyles } from "@mui/styles";
+// import { makeStyles } from "@mui/styles";
 import Link from '@mui/material/Link';
 
 
 import "./style.css";
 // import { stepClasses } from "@mui/material";
 
-const useStyles = makeStyles({
-  iconStyle: {
-    transform: "scale(3)",
-    margin: "0, 15px, 0, 0"
-  }
-});
+// const useStyles = makeStyles({
+//   iconStyle: {
+//     transform: "scale(2.7)",
+//     margin: "0, 15px, 0, 0",
+//   },
+// });
 
 function ProPic() {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   return (
     <div>
@@ -31,20 +31,20 @@ function ProPic() {
           <Grid container className=" image-top image-icon-container top-icon-container">
             <Grid className="image-info" item xs={12}>
               <Link href="https://github.com/jeffgcameron" rel="noopener noreferrer" target="_blank" className="propic-link">
-              <GitHubIcon className={classes.iconStyle} />
+              <GitHubIcon className="icon-style" />
               </Link >
             </Grid>
             </Grid>
             <Grid container>
             <Grid className="image-left image-info" item xs={6}>
             <Link href="https://www.linkedin.com/in/jeffgcameron/" rel="noopener noreferrer" target = "_blank" className="propic-link">
-              <LinkedInIcon  className={classes.iconStyle} />
+              <LinkedInIcon  className="icon-style" />
               </Link>
             </Grid>
             <Grid className="image-info" item xs={6}>
               <div className="image-right">
             <Link href="https://www.instagram.com/mynamesjefph/" rel="noopener noreferrer" target="_blank" className="propic-link">
-              <InstagramIcon className={classes.iconStyle} />
+              <InstagramIcon className="icon-style" />
               </Link>
               </div>
             </Grid>
@@ -54,7 +54,7 @@ function ProPic() {
          
             <Grid className="image-info" item xs={12}>
             <Link href="mailto:jeffgcameron@gmail.com" rel="noopener noreferrer" target="_blank" className="propic-link">
-              <MailOutlineIcon className={classes.iconStyle} />
+              <MailOutlineIcon className="icon-style" />
               </Link>
             </Grid>
           </Grid>

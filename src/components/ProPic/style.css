@@ -7,6 +7,8 @@
   border-radius: 100%;
 }
 
+
+
 .propic {
   /* width: 100%; */
   width: 50vh;
@@ -18,6 +20,11 @@
     border-radius: 100%;
     border-color: rgba(200, 200, 200, 0);
     border-width: 1; */
+}
+ 
+.overlay:hover .propic{
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
 }
 
 .image-icon-container {
@@ -58,6 +65,7 @@ position: absolute;
 
 .image_overlay:hover {
     opacity: 1;
+
   }
 
 /* .image-bottom > * {
@@ -127,12 +135,18 @@ position: absolute;
     transform:rotate(-45deg);
 }
 
-
 .image-info {
   text-align: center;
 }
 
+.icon-style {
+  transform: scale(2.7);
+  margin: 0, 15px, 0, 0;
+}
 
+.icon-style:hover {
+  transform: scale(3.2);
+}
 
 h1 {
   position: relative;
