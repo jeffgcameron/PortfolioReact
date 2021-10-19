@@ -70,11 +70,13 @@ li {
 .dropdown-menu {
     background-color: rgb(49, 84, 119) !important;
     border-style: none !important;
-    width: 100% !important;
+    min-width: 15rem !important;
     inset: 0px 0px 0px 0px !important;
+    line-height: 3 !important;
     height: 100vh;
     
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -91,10 +93,12 @@ li {
     .dropdown-item {
        font-family: 'Lora', serif;
        color: rgb(214, 214, 214) !important; 
+       display: inline;
     }
 
     .dropdown-item:hover {
         opacity: 100%;
         font-weight: bolder;
+        color: rgb(49, 84, 119) !important;
     }
 }

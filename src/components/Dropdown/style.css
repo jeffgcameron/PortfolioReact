@@ -9,3 +9,7 @@
 .btn-success:focus {
     box-shadow: none !important;
 }
+
+.dropdown-icon {
+    margin-right: 10px;
+}
