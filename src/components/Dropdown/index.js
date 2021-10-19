@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MenuIcon from '@mui/icons-material/Menu';
 import Dropdown from "react-bootstrap/Dropdown";
 import Resume from "../../Images/Jeff Cameron Resume.pdf";
 
@@ -12,7 +12,7 @@ function DropDownMenu() {
       
       <Dropdown>
         <Dropdown.Toggle variant="success" id="dropdown-basic">
-          <FontAwesomeIcon icon={faEllipsisV}></FontAwesomeIcon>
+          <MenuIcon/>
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
