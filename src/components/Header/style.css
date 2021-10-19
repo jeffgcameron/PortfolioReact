@@ -28,6 +28,7 @@ nav {
     color: rgb(214, 214, 214) !important; 
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    font-size: 18px;
 }
 
 ul {
@@ -66,6 +67,15 @@ li {
     margin: auto;
 }
 
+.dropdown-menu {
+    background-color: rgb(49, 84, 119) !important;
+    border-style: none !important;
+    width: 100% !important;
+    inset: 0px 0px 0px 0px !important;
+    height: 100vh;
+    
+}
+
 @media screen and (max-width: 768px) {
 
     .dropdown {
@@ -75,11 +85,12 @@ li {
         display: none;
     }
     .dropdown-menu {
-        opacity: 75%;
+        /* opacity: 75%; */
     }
 
     .dropdown-item {
        font-family: 'Lora', serif;
+       color: rgb(214, 214, 214) !important; 
     }
 
     .dropdown-item:hover {
