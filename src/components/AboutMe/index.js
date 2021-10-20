@@ -1,17 +1,16 @@
 import React from "react";
 import AboutMePic from "../../Images/aboutmepic.jpeg";
 import Grid from "@material-ui/core/Grid";
+import AboutMeAccordian from "../Accordian/index";
 import "./style.css";
 
 function AboutMe() {
   return (
     <div>
-      <Grid
-        container
-        alignItems="center"
-      >
-        <Grid item md={9} sm={12}>
-          <div className=" about-me-area">
+      <Grid container id = "about-me-container" alignItems="center">
+      <Grid item lg = {1} md={0} />
+        <Grid item lg={7} md={12} >
+          {/* <div className=" about-me-area">
             <p className="title">Personal Info</p>
             <p className="about-me-text">
               Hi my name is Jeff and I am a web developer living in Jackson, WY.
@@ -36,11 +35,13 @@ function AboutMe() {
               University in 2016 with a Bachelor's Degree in Business Management
               and a minor in Asian Studies.
             </p>
-          </div>
+          </div> */}
+          <AboutMeAccordian/>
         </Grid>
-        <Grid item md={3} sm={12} className="pic-full">
+        <Grid item lg={3} md={12} className="pic-full">
           <img className="about-me-pic" src={AboutMePic} alt="About Me"></img>
         </Grid>
+        <Grid item lg = {1} md={0} />
       </Grid>
     </div>
   );
