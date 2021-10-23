@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.9b98a287.chunk.css",
-    "main.js": "/PortfolioReact/static/js/main.8f369ec7.chunk.js",
-    "main.js.map": "/PortfolioReact/static/js/main.8f369ec7.chunk.js.map",
+    "main.css": "/PortfolioReact/static/css/main.03cc66b1.chunk.css",
+    "main.js": "/PortfolioReact/static/js/main.82776e3a.chunk.js",
+    "main.js.map": "/PortfolioReact/static/js/main.82776e3a.chunk.js.map",
     "runtime-main.js": "/PortfolioReact/static/js/runtime-main.b15364e2.js",
     "runtime-main.js.map": "/PortfolioReact/static/js/runtime-main.b15364e2.js.map",
     "static/css/2.f2512455.chunk.css": "/PortfolioReact/static/css/2.f2512455.chunk.css",
-    "static/js/2.05c530fc.chunk.js": "/PortfolioReact/static/js/2.05c530fc.chunk.js",
-    "static/js/2.05c530fc.chunk.js.map": "/PortfolioReact/static/js/2.05c530fc.chunk.js.map",
+    "static/js/2.ff487ef3.chunk.js": "/PortfolioReact/static/js/2.ff487ef3.chunk.js",
+    "static/js/2.ff487ef3.chunk.js.map": "/PortfolioReact/static/js/2.ff487ef3.chunk.js.map",
     "index.html": "/PortfolioReact/index.html",
     "static/css/2.f2512455.chunk.css.map": "/PortfolioReact/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.9b98a287.chunk.css.map": "/PortfolioReact/static/css/main.9b98a287.chunk.css.map",
-    "static/js/2.05c530fc.chunk.js.LICENSE.txt": "/PortfolioReact/static/js/2.05c530fc.chunk.js.LICENSE.txt",
+    "static/css/main.03cc66b1.chunk.css.map": "/PortfolioReact/static/css/main.03cc66b1.chunk.css.map",
+    "static/js/2.ff487ef3.chunk.js.LICENSE.txt": "/PortfolioReact/static/js/2.ff487ef3.chunk.js.LICENSE.txt",
     "static/media/CineMunch.dfba03c0.png": "/PortfolioReact/static/media/CineMunch.dfba03c0.png",
     "static/media/DCScreenshot.f7ecb533.png": "/PortfolioReact/static/media/DCScreenshot.f7ecb533.png",
     "static/media/DevDash.d0c90bba.png": "/PortfolioReact/static/media/DevDash.d0c90bba.png",
@@ -22,19 +22,22 @@
     "static/media/Password.38f35d00.png": "/PortfolioReact/static/media/Password.38f35d00.png",
     "static/media/Quiz.35c5e33d.png": "/PortfolioReact/static/media/Quiz.35c5e33d.png",
     "static/media/README.bd18eecc.png": "/PortfolioReact/static/media/README.bd18eecc.png",
+    "static/media/App.css": "/PortfolioReact/static/media/SummerBackground.9dd85004.png",
     "static/media/TechBlog.814aa1f9.png": "/PortfolioReact/static/media/TechBlog.814aa1f9.png",
-    "static/media/aboutmepic.f40fad8c.jpeg": "/PortfolioReact/static/media/aboutmepic.f40fad8c.jpeg",
+    "static/media/aboutmesummer2.05cd2601.jpg": "/PortfolioReact/static/media/aboutmesummer2.05cd2601.jpg",
     "static/media/bluelogo.de628ac8.png": "/PortfolioReact/static/media/bluelogo.de628ac8.png",
     "static/media/denver.06001778.png": "/PortfolioReact/static/media/denver.06001778.png",
     "static/media/logogrey.f116c043.png": "/PortfolioReact/static/media/logogrey.f116c043.png",
     "static/media/style.css": "/PortfolioReact/static/media/mountain-opacity.b48d8e58.png",
-    "static/media/propic.65f4df9d.png": "/PortfolioReact/static/media/propic.65f4df9d.png"
+    "static/media/propic.65f4df9d.png": "/PortfolioReact/static/media/propic.65f4df9d.png",
+    "static/media/summerpropic.01337254.jpg": "/PortfolioReact/static/media/summerpropic.01337254.jpg",
+    "static/media/winteraboutme.8bec61c3.jpg": "/PortfolioReact/static/media/winteraboutme.8bec61c3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b15364e2.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.05c530fc.chunk.js",
-    "static/css/main.9b98a287.chunk.css",
-    "static/js/main.8f369ec7.chunk.js"
+    "static/js/2.ff487ef3.chunk.js",
+    "static/css/main.03cc66b1.chunk.css",
+    "static/js/main.82776e3a.chunk.js"
   ]
 }
