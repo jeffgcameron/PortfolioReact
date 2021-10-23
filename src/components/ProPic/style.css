@@ -5,21 +5,30 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 
 
 .propic {
-  /* width: 100%; */
   width: 50vh;
   height: 50vh;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  /* border-style: solid;
-    border-radius: 100%;
-    border-color: rgba(200, 200, 200, 0);
-    border-width: 1; */
+}
+
+.propic-winter {
+/* display: none; */
+}
+
+.hide-pic {
+  display: none;
+}
+
+.propic-summer {
+  border-radius: 100%;
+  /* display: none; */
 }
  
 .overlay:hover .propic{
@@ -67,6 +76,17 @@ position: absolute;
     opacity: 1;
 
   }
+
+  .image-info {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+  }
+
+  .image-info:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
 
 .propic-link {
     color: rgb(214, 214, 214) !important;
@@ -153,9 +173,8 @@ h2 {
     margin-top: 10vh;
     height: 40vh;
     width: 40vh;
-    /* justify-content: center;
-    align-items: center; */
   }
+
   .image_overlay {
     width: 40vh;
     height: 40vh;
@@ -199,31 +218,3 @@ h2 {
     transform: scale(2);
   }
 }
-
-
-/* .image-bottom > * {
-    transform: translateY(1vh);
-    transition: transform 0.25s;
-}
-
-.image-bottom:hover > * {
-    transform: translateY(0);
-}
-
-.image-top > * {
-    transform: translateY(-1vh);
-    transition: transform 0.25s;
-}
-
-.image-top:hover > * {
-    transform: translateY(0);
-}
-
-.image-right > * {
-    transform: translateY(-1vh);
-    transition: transform 0.25s;
-}
-
-.image-right:hover > * {
-    transform: translateY(0);
-} */

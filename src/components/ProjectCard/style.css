@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
+    height: auto;
 }
 
 .card{
@@ -14,9 +15,17 @@
     height: 100%;
     width: 75%;
     opacity: 1;
-    background-color: rgba(105, 124, 160, 0.25) !important;
     border-style: none !important;
     border-radius: 0px !important;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-winter {
+    background-color: rgba(105, 124, 160, 0.25) !important;
+}
+
+.card-summer {
+    background-color: rgba(148, 160, 105, 0.25) !important;
 }
 
 .card-image {
@@ -27,7 +36,8 @@
 
 .card-content {
     height: 100% !important;
-    width: 75% !important;
+    width: 100% !important;
+    height: 33vh;
 }
 
 .card:hover {
@@ -35,21 +45,19 @@
 
 }
 
-.card-text {
+.card-text, .card-flip-text {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 
-.card-title {
+.card-title, .card-flip-title {
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
+    font-size: 25px;
 }
-/* 
-.card-col {
-    padding-top: 25px;
-} */
 
-.card-text, .card-title {
+.card-text, .card-title, .card-flip-title, .card-flip-text {
     color: rgb(43, 43, 43);
 }
 
@@ -67,13 +75,84 @@ a {
 .site-link {
     margin-left: 5px;
     margin-right: 5px;
-    color:rgb(49, 84, 119);
-    font-size: 25px;
+    font-size: 30px;
     vertical-align: middle;
+}
+
+.site-link-summer {
+color: rgb(72, 108, 61);
+}
+
+.site-link-winter {
+    color:rgb(49, 84, 119);
 }
 
 .site-link:hover {
     color: rgb(43, 43, 43);
 }
 
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
 
+.card-flip:hover .card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.card-front, .card-back {
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    padding: 16px;
+}
+
+@media screen and (max-width: 1500px) {
+    .card-flip-title {
+        font-size: 20px;
+    }
+
+    .card-flip-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .card-flip-title {
+        font-size: 15px;
+    }
+
+    .card-flip-text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .card-flip-title {
+        font-size: 15px;
+    }
+
+    .card-flip-text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-title {
+        font-size: 20px;
+     }
+    .card-text{
+       font-size: 15px;
+    }
+}

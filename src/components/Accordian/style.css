@@ -3,5 +3,80 @@
     border: 0 !important;
 }
 
+#technical-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(105, 124, 160, 0.25);
+    color:rgb(214, 214, 214);
+    height: 50px;
+}
+
+.technical-icon-style{
+    font-size: 40px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.technical-icon-style:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
 
 
+.school-icon {
+    height: 40px;
+}
+
+#html-icon:hover, #code-icon:hover {
+    color: #f26524;
+}
+
+#css-icon:hover, #water-icon :hover {
+    color: #2188c1;
+}
+
+#js-icon:hover, #bike-icon:hover {
+    color: #ebd41b;
+}
+
+#react-icon:hover, #skiing-icon:hover {
+    color: #5cceed;
+
+}
+
+#bootstrap-icon:hover, #fish-icon:hover:hover {
+    color: #593c84;
+}
+
+#node-icon:hover, #mountain-icon:hover {
+    color: #84ba04;
+}
+
+#git-icon:hover {
+    color: #e44c31;
+}
+
+#microsoft-icon:hover, #dever-icon:hover {
+    color: #b83757;
+}
+
+#elon-icon:hover {
+    color: goldenrod;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .technical-icon-style{
+        font-size: 25px;
+    }
+    .school-icon {
+        height: 25px;
+    }
+}

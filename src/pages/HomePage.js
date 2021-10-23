@@ -9,15 +9,15 @@ import SectionHeader from "../components/SectionHeaders/index";
 import Form from "../components/Form/index"
 import Footer from "../components/Footer/index"
 
-import GroceryGrab from "../Images/GroceryGrab.png"
-import CineMunch from "../Images/CineMunch.png"
-import DevDash from "../Images/DevDash.png"
-import DCS from "../Images/DCScreenshot.png"
-import Tech from "../Images/TechBlog.png"
-import Directory from "../Images/EmployeeDirectory.png"
-import ReadMe from "../Images/README.png"
-import Password from "../Images/Password.png"
-import Quiz from "../Images/Quiz.png"
+import GroceryGrab from "../Images/GroceryGrab.webp"
+import CineMunch from "../Images/CineMunch.webp"
+import DevDash from "../Images/DevDash.webp"
+import DCS from "..//Images/DCScreenshot.webp"
+import Tech from "../Images/TechBlog.webp"
+import Directory from "../Images/EmployeeDirectory.webp"
+import ReadMe from "../Images/README.webp"
+import Password from "../Images/Password.webp"
+import Quiz from "../Images/Quiz.webp"
 
 
 import projects from "../projects.json";
@@ -28,21 +28,33 @@ const images = [GroceryGrab, CineMunch, DevDash, DCS, Tech, Directory, ReadMe, P
 class HomePage extends Component {
   state = {
     projects,
+    isSummer: false, 
   };
 
-
+  toggleSeason = () => {
+    this.setState({isSummer: !this.state.isSummer})
+    console.log(this.state.isSummer);
+    if (this.state.isSummer=== false) {
+      console.log("its winter!");
+      document.body.classList.add('body-summer');
+    } else 
+      document.body.classList.remove('body-summer');
+  }
 
   render() {
+
+   
+    
     return (
       <div>
         <div className="landing">
-          <Header />
-          <Propic />
+          <Header toggleSeason={this.toggleSeason} isSummer={this.state.isSummer}/>
+          <Propic isSummer={this.state.isSummer}/>
         </div>
         <div className="main">
-          <LogoLine />
+          <LogoLine isSummer={this.state.isSummer}/>
           <SectionHeader id="about-me" name={headers[0].name} />
-          <AboutMe />
+          <AboutMe  isSummer={this.state.isSummer}/>
           <SectionHeader id="portfolio" name={headers[1].name} />
           <Wrapper>
             {this.state.projects.map((projects, index) => (
@@ -53,13 +65,16 @@ class HomePage extends Component {
                 description={projects.description}
                 site={projects.site}
                 github={projects.github}
+                problem ={projects.problem}
+                tech= {projects.tech}
+                isSummer={this.state.isSummer}
               />
             ))}
           </Wrapper>
           <SectionHeader id="connect" name={headers[2].name} />
-          <Form />
+          <Form  isSummer={this.state.isSummer}/>
         </div>
-        <Footer />
+        <Footer isSummer={this.state.isSummer}/>
       </div>
     );
   }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -8,10 +8,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "./style.css";
 
-function Footer() {
+class Footer extends Component {
+
+  render() {
+
+    // const {isSummer}= this.props
+
   return (
     <div>
-      <footer className="port-footer">
+      <footer className={this.props.isSummer ? "footer-summer" : "footer-winter"}>
         <div className="media media-top">
           <a
             target="_blank"
@@ -52,6 +57,7 @@ function Footer() {
       </footer>
     </div>
   );
+}
 }
 
 export default Footer;

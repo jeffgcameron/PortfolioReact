@@ -5,11 +5,20 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.footer-winter {
     background-color: rgb(49, 84, 119);
+}
+
+.footer-summer {
+    background-color: rgb(72, 108, 61);
 }
 
 .info {
     margin: 0;
+    font-size: 25px;
     color:rgb(214, 214, 214);
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
@@ -19,7 +28,7 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
     color:rgb(214, 214, 214);
-    font-size: 25px;
+    font-size: 30px;
     vertical-align: middle;
 }
 
@@ -34,4 +43,13 @@ footer {
 
 .social:hover, .info:hover {
     color: rgb(43, 43, 43) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        font-size: 15px;
+     }
+    .media {
+       font-size: 12px;
+    }
 }

@@ -1,17 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./style.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
-function Form() {
+class Form extends Component {
 
-// let formSuccess = document.getElementById("#form-success")
-// let first = document.getElementById("#first-name") 
-// let formResponse = document.getElementById("#response")
-
-// function formSubmit() {
-//     console.log("great success!");
-// }
-
+render() {
 
   return (
     <div>
@@ -41,7 +35,7 @@ function Form() {
         <input
           type="hidden"
           name="_next"
-          value="https://jeffgcameron.github.io/ReactPortfolio"
+          value="https://jeffgcameron.github.io/PortfolioReact/#connect"
         />
         <input
           type="email"
@@ -71,13 +65,14 @@ function Form() {
             required
           ></textarea>
         </div>
-        <button type="submit" value="Send" id ="form-success" className=" btn btn-primary">
-          Submit
+        <button type="submit" value="Send" id ="form-success" className={this.props.isSummer ? "button-summer send-btn btn btn-primary" : "button-winter send-btn btn btn-primary"}>
+          <FontAwesomeIcon icon = {faPaperPlane} className="send-icon"></FontAwesomeIcon>Send
         </button>
         <div id="response"></div>
       </form>
     </div>
   );
+}
 }
 
 export default Form;

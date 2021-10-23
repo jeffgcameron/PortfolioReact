@@ -1,31 +1,28 @@
-import React from "react";
-import ProfilePic from "../../Images/propic.png";
+import React, { Component } from "react";
+import ProfilePic from "../../Images/propic.webp";
+import SummerProPic from "../../Images/summerpropic.webp"
 import Grid from "@mui/material/Grid";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-// import { makeStyles } from "@mui/styles";
 import Link from '@mui/material/Link';
 
 
 import "./style.css";
-// import { stepClasses } from "@mui/material";
 
-// const useStyles = makeStyles({
-//   iconStyle: {
-//     transform: "scale(2.7)",
-//     margin: "0, 15px, 0, 0",
-//   },
-// });
 
-function ProPic() {
-  // const classes = useStyles();
+class ProPic extends Component {
+
+  render() {
+    // const {isSummer}= this.props
+    // console.log(isSummer);
 
   return (
     <div>
       <div className="overlay">
-        <img src={ProfilePic} className="propic" alt="Profile" />
+        <img src={ProfilePic} className={this.props.isSummer ? " hide-pic" : "propic propic-winter"} alt="Profile" />
+        <img src={SummerProPic} className={this.props.isSummer ? " propic propic-summer" : "hide-pic"} alt="Summer Profile"/>
         
         <div className="image_overlay">
           <Grid container className=" image-top image-icon-container top-icon-container">
@@ -68,6 +65,7 @@ function ProPic() {
       
     </div>
   );
+}
 }
 
 export default ProPic;

@@ -1,7 +1,17 @@
 header {
-  position: relative;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 7vh;
+  z-index: 999;
+}
+
+.header-winter {
   background-color: rgb(49, 84, 119);
-  line-height: 3vh;
+}
+
+.header-summer {
+  background-color: rgb(72, 108, 61);
 }
 
 nav {
@@ -10,10 +20,28 @@ nav {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  height: 7vh;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
+.season-title {
+  margin: 0;
+  color: rgb(214, 214, 214) ;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 50px ;
+}
+
+.season-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
 .navbar-text {
-  padding: 0;
+  padding: 0 !important;
   display: flex;
   justify-content: space-around;
 }
@@ -24,16 +52,34 @@ nav {
 }
 
 .nav-link {
+  transition: .3s ease;
   color: rgb(214, 214, 214) !important;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid rgb(214, 214, 214);
+  border-bottom: 4px solid rgb(49, 84, 119);
 }
 
-.nav-link:hover {
-  color: rgb(49, 84, 119) !important;
-  transform: scale(1.05);
-  background-color: rgb(214, 214, 214);
-  vertical-align: center;
+
+.header-link {
+  transition: 0.5s ease;
+  font-family: "Poppins", sans-serif;
+  color: rgb(214, 214, 214);
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.header-link:hover {
+  border-top: 3px solid rgb(214, 214, 214);
+  border-bottom: 3px solid rgb(214, 214, 214);
+  color: rgb(214, 214, 214);
+  padding: 5px 0; 
 }
 
 ul {
@@ -47,16 +93,19 @@ ul {
 
 li {
   list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .dropdown {
   display: none;
+  height: 100%;
 }
 
 .dropdown-toggle div {
   width: 25px;
   height: 2px;
-  background-color: rgb(214, 214, 214);
+  background-color: transparent !important;
   margin: 5px;
 }
 
@@ -69,7 +118,6 @@ li {
 }
 
 .dropdown-menu {
-  background-color: rgb(49, 84, 119) !important;
   border-style: none !important;
   min-width: 15rem !important;
   inset: 0px 0px 0px 0px !important;
@@ -77,9 +125,39 @@ li {
   height: 100vh;
 }
 
-.logo-style {
-  height: 3vh;
+.dropdown-menu-winter {
+  background-color: rgb(49, 84, 119) !important;
 }
+
+.dropdown-menu-summer {
+  background-color: rgb(72, 108, 61) !important;
+}
+
+.logo-style {
+  height: 4vh;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: rgb(214, 214, 214) !important;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.show>.btn-success.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.btn-success:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-icon {
+  margin-right: 10px;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .dropdown {
@@ -99,4 +177,5 @@ li {
     font-weight: bolder;
     color: rgb(49, 84, 119) !important;
   }
+  
 }

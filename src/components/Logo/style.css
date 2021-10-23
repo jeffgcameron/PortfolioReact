@@ -4,8 +4,12 @@
   width: 30%;
 }
 
+.logo-hide {
+display: none;
+}
+
 hr {
-  background-image: url(../../Images/mountain-opacity.png);
+  background-image: url(../../Images/mountain-opacity.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

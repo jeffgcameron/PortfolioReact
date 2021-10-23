@@ -1,10 +1,12 @@
 import React from "react";
-import LogoPic from "../../Images/bluelogo.png";
-// import { Container, Row, Col } from "../Grid";
+import BlueLogoPic from "../../Images/bluelogo.webp";
+import GreenLogoPic from "../../Images/greenlogo.webp"
 import Grid from "@material-ui/core/Grid";
 import "./style.css";
 
-function LogoLine() {
+class LogoLine extends React.Component {
+
+  render() {
   return (
     <div>
       <Grid container
@@ -13,7 +15,9 @@ function LogoLine() {
           <hr className="logo-line" />
         </Grid>
         <Grid item xs={4} md={2}>
-          <img className="logo-center" src={LogoPic} alt="Logo" />
+          {/* <img className="logo-center" src={BlueLogoPic} alt="Logo" /> */}
+          <img className={this.props.isSummer ? "logo-hide" : "logo-center"} src={BlueLogoPic} alt="Logo"></img>
+          <img className={this.props.isSummer ? "logo-center" : "logo-hide"}src={GreenLogoPic} alt="Logo"></img>
         </Grid>
         <Grid item xs={4} md={5}>
           <div className="header-line">
@@ -23,6 +27,7 @@ function LogoLine() {
       </Grid>
     </div>
   );
+}
 }
 
 export default LogoLine;

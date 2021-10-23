@@ -4,63 +4,82 @@
         "name": "Grocery Grab",
         "description": "GroceryGrab allows users to create and save a grocery list.",
         "site": "https://tranquil-bastion-55254.herokuapp.com/",
-        "github": "https://github.com/jeffgcameron/GroceryGrab"
+        "github": "https://github.com/jeffgcameron/GroceryGrab",
+        "problem": "Ever get to the grocery store and forget what your supposed to buy? Notes are easy to lose and so 2010. Use Grocery Grab so you'll always keep track of your shopping list!",
+        "tech": "Node, Sequelize, mySQL, Express, and Handlebars"
     },
     {
         "id": 2,
         "name": "CineMunch",
         "description": "CineMunch helps users choose movies and local restaurant options.",
         "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
-        "github": "https://github.com/jeffgcameron/CineMunch"
+        "github": "https://github.com/jeffgcameron/CineMunch",
+        "problem": "Choosing what to eat and watch every night can get tiring. With so many food and movie options, what are you to do? Fear not, Cinemuch will help!",
+        "tech": "Javascript, Bootstrap, Third Party APIs, and Insomnia"
     },
     {
         "id": 3,
         "name": "DevDash",
         "description": "Social media app that helps connects new developers.",
         "site": "https://devdashboard.herokuapp.com/",
-        "github": "https://github.com/jeffgcameron/DevDash"
+        "github": "https://github.com/jeffgcameron/DevDash",
+        "problem": "You just finished your coding bootcamp and are looking to start a new job or project. However, you need some help. Jump on DevDash, grow your network, and find the team that right for you!",
+        "tech": "React, Material UI, MongoDB, MERN, and Webpack"
     },
     {
         "id": 4,
         "name": "Destination Connection",
         "description": "Boutique destination management provider.",
         "site": "https://destinationconnection.services/",
-        "github": "https://github.com/jeffgcameron/DestinationConnection"
+        "github": "https://github.com/jeffgcameron/DestinationConnection",
+        "problem": "Travelling can be stressful, especially with big groups. Stop worrying and contact Destination Connection for the group trip of a lifetime!",
+        "tech": "HTML, CSS, FormSubmit"
     },
     {
         "id": 5,
         "name": "Tech Blog",
-        "description": "This app allowes users to sign in, or sign up, and create blog posts.",
+        "description": "This app allows users to sign in, or sign up, and create blog posts.",
         "site": "https://salty-reef-93783.herokuapp.com/",
-        "github": "https://github.com/jeffgcameron/TechBlog"
+        "github": "https://github.com/jeffgcameron/TechBlog",
+        "problem": "Technology is everychanging and keeping up is usually pretty tough. Well, not anymore! Jump on TechBlog to stay up to date with all tech news and infomation.",
+        "tech": "MVC, Sequelize, SQL, Express, and Handlebars"
     },
     {
         "id": 6,
         "name": "Employee Directory",
         "description": "Use this Directoy to serach for employees or filter by name.",
         "site": "https://jeffgcameron.github.io/React-Directory/",
-        "github": "https://github.com/jeffgcameron/React-Directory"
+        "github": "https://github.com/jeffgcameron/React-Directory",
+        "problem": "Rembering names and faces is hard. Use EmployeeTracker, and never mix up your employees again!",
+        "tech": "MySQL, Schema, Seeds, InquirerJs, and Javascript"
     },
     {
         "id": 7,
         "name": "README Generator",
         "description": "Generate a professional README file using node.js.",
         "site": "https://vimeo.com/519766263",
-        "github": "https://github.com/jeffgcameron/ReadMeGenerator"
+        "github": "https://github.com/jeffgcameron/ReadMeGenerator",
+        "problem": "READMEs are never fun to write, and keeping them consisten takes more effort than its worth. Use README Generator and you'll forget you even made one!",
+        "tech": "Node, and Javascript"
     },
     {
         "id": 8,
         "name": "Password Generator",
         "description": "Generate a password based on your own chosen criteria.",
         "site": "https://jeffgcameron.github.io/Password-Generator/",
-        "github": "https://github.com/jeffgcameron/Password-Generator"
+        "github": "https://github.com/jeffgcameron/Password-Generator",
+        "problem": "Data leaking is more prevalent now than ever. Stop using your middle school dog's name to hide your information and create a secure password with Password Generator.",
+        "tech": "HTML, CSS, Javascript"
     },
     {
         "id": 9,
         "name": "Quiz",
         "description": "How well do you know me? Take this multiple choice quiz to find out!",
         "site": "https://jeffgcameron.github.io/JavascriptQuiz/",
-        "github": "https://github.com/jeffgcameron/JavascripQuiz"
+        "github": "https://github.com/jeffgcameron/JavascripQuiz",
+        "problem": "Tired of people pretending to be your friends? Send them Quiz and start purging your Facebook friend list",
+        "tech": "Local Storeage, and Javascript"
+
     }
 
 ]

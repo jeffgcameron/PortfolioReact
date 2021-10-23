@@ -9,10 +9,19 @@
   justify-content: center;
 }
 
+.pic-full {
+  display: relative;
+}
+
+.about-me-pic-hide{
+  display: none !important;
+}
+
 #accordion-div {
   height: 100%;
-  width: 75%;
+  width: 75% !important;
   margin: auto;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .about-me-pic {
@@ -22,7 +31,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* border-radius: 100%; */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .title {
@@ -40,7 +49,7 @@
 .about-me-text {
   font-family: "Poppins", sans-serif;
   margin-left: 15px;
-  /* font-size: 18px; */
+  font-size: 20px;
 }
 
 .about-me-row {
@@ -56,26 +65,96 @@
   padding-right: 20px;
 }
 
-.education-text{
-  margin-bottom: 0;
-}
-
 .css-1a7qmlf-MuiAccordionDetails-root {
   padding-bottom: 0 !important;
 }
 
-/* @media screen and (max-width: 1450px) {
-  .about-me-pic {
-    height: 100% !important;
-    width: 100% !important;
-}
-#about-me-container {
-  align-items: stretch;
+.css-1mxs4hs {
+  background-color: rgba(249, 251, 252, 0) !important;
 }
 
-} */
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root {
+  background-color: rgba(248, 248, 248, 0) !important;
+  border: 0 !important;
+}
 
-@media screen and (max-width: 1280px) {
+.technical-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(105, 124, 160, 0.25); */
+  color:rgb(238, 237, 237);
+  height: 50px;
+}
+
+.technical-icons-winter {
+  background-color: rgb(105, 124, 160, 0.25);
+}
+
+.technical-icons-summer {
+  background-color: rgba(113, 122, 80, 0.25) 
+}
+
+.technical-icon-style{
+  font-size: 40px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.technical-icon-style:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+0%   { transform: translateY(0); }
+50%  { transform: translateY(-5px); }
+100% { transform: translateY(0); }
+}
+
+
+.school-icon {
+  height: 40px;
+}
+
+#html-icon:hover, #code-icon:hover {
+  color: #f26524;
+}
+
+#css-icon:hover, #water-icon :hover {
+  color: #2188c1;
+}
+
+#js-icon:hover, #bike-icon:hover {
+  color: #ebd41b;
+}
+
+#react-icon:hover, #skiing-icon:hover {
+  color: #5cceed;
+
+}
+
+#bootstrap-icon:hover, #fish-icon:hover:hover {
+  color: #593c84;
+}
+
+#node-icon:hover, #mountain-icon:hover {
+  color: #84ba04;
+}
+
+#git-icon:hover {
+  color: #e44c31;
+}
+
+#microsoft-icon:hover, #dever-icon:hover {
+  color: #b83757;
+}
+
+#elon-icon:hover {
+  color: goldenrod;
+}
+
+
+@media screen and (max-width: 1279px) {
   .about-me-pic {
     max-width: 33%;
     margin-top: 36px;
@@ -85,9 +164,6 @@
 @media screen and (max-width: 960px) {
   .about-me-pic {
     max-width: 50%;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
   }
 }
 
@@ -105,4 +181,18 @@
     padding-right: 0;
     min-width: 75%;
   }
+
+  .about-me-text {
+    font-size: 15px;
+  }
 }
+
+@media screen and (max-width: 550px) {
+  .technical-icon-style{
+      font-size: 25px;
+  }
+  .school-icon {
+      height: 25px;
+  }
+}
+
