@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.03cc66b1.chunk.css",
-    "main.js": "/PortfolioReact/static/js/main.82776e3a.chunk.js",
-    "main.js.map": "/PortfolioReact/static/js/main.82776e3a.chunk.js.map",
+    "main.css": "/PortfolioReact/static/css/main.489df295.chunk.css",
+    "main.js": "/PortfolioReact/static/js/main.5e85daca.chunk.js",
+    "main.js.map": "/PortfolioReact/static/js/main.5e85daca.chunk.js.map",
     "runtime-main.js": "/PortfolioReact/static/js/runtime-main.b15364e2.js",
     "runtime-main.js.map": "/PortfolioReact/static/js/runtime-main.b15364e2.js.map",
     "static/css/2.f2512455.chunk.css": "/PortfolioReact/static/css/2.f2512455.chunk.css",
-    "static/js/2.ff487ef3.chunk.js": "/PortfolioReact/static/js/2.ff487ef3.chunk.js",
-    "static/js/2.ff487ef3.chunk.js.map": "/PortfolioReact/static/js/2.ff487ef3.chunk.js.map",
+    "static/js/2.5a2d2e5d.chunk.js": "/PortfolioReact/static/js/2.5a2d2e5d.chunk.js",
+    "static/js/2.5a2d2e5d.chunk.js.map": "/PortfolioReact/static/js/2.5a2d2e5d.chunk.js.map",
     "index.html": "/PortfolioReact/index.html",
     "static/css/2.f2512455.chunk.css.map": "/PortfolioReact/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.03cc66b1.chunk.css.map": "/PortfolioReact/static/css/main.03cc66b1.chunk.css.map",
-    "static/js/2.ff487ef3.chunk.js.LICENSE.txt": "/PortfolioReact/static/js/2.ff487ef3.chunk.js.LICENSE.txt",
+    "static/css/main.489df295.chunk.css.map": "/PortfolioReact/static/css/main.489df295.chunk.css.map",
+    "static/js/2.5a2d2e5d.chunk.js.LICENSE.txt": "/PortfolioReact/static/js/2.5a2d2e5d.chunk.js.LICENSE.txt",
     "static/media/CineMunch.dfba03c0.png": "/PortfolioReact/static/media/CineMunch.dfba03c0.png",
     "static/media/DCScreenshot.f7ecb533.png": "/PortfolioReact/static/media/DCScreenshot.f7ecb533.png",
     "static/media/DevDash.d0c90bba.png": "/PortfolioReact/static/media/DevDash.d0c90bba.png",
@@ -27,6 +27,7 @@
     "static/media/aboutmesummer2.05cd2601.jpg": "/PortfolioReact/static/media/aboutmesummer2.05cd2601.jpg",
     "static/media/bluelogo.de628ac8.png": "/PortfolioReact/static/media/bluelogo.de628ac8.png",
     "static/media/denver.06001778.png": "/PortfolioReact/static/media/denver.06001778.png",
+    "static/media/greenlogo.69489065.png": "/PortfolioReact/static/media/greenlogo.69489065.png",
     "static/media/logogrey.f116c043.png": "/PortfolioReact/static/media/logogrey.f116c043.png",
     "static/media/style.css": "/PortfolioReact/static/media/mountain-opacity.b48d8e58.png",
     "static/media/propic.65f4df9d.png": "/PortfolioReact/static/media/propic.65f4df9d.png",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.b15364e2.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.ff487ef3.chunk.js",
-    "static/css/main.03cc66b1.chunk.css",
-    "static/js/main.82776e3a.chunk.js"
+    "static/js/2.5a2d2e5d.chunk.js",
+    "static/css/main.489df295.chunk.css",
+    "static/js/main.5e85daca.chunk.js"
   ]
 }
