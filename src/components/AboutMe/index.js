@@ -129,7 +129,7 @@ class AboutMe extends React.Component {
               </p>
               <AccordionDetails>
                 <p className="about-me-text">
-                  Hi my name is Jeff and I am a web developer living in Jackson,
+                  Hi! My name is Jeff and I am a web developer living in Jackson,
                   WY. I started coding on my own as a way to challenge myself
                   and learn a new skill. The fusion of creativity and logic
                   sparked my interest and I soon found myself pursuing a new
@@ -226,7 +226,7 @@ class AboutMe extends React.Component {
               <AccordionDetails>
                 <p className="about-me-text education-text">
                   I recently completed The University of Denver's full stack
-                  coding bootcamp in June, 2021. Before that, I graduated from
+                  coding bootcamp in June, 2021. Previously, I graduated from
                   Elon University in 2016 with a Bachelor's Degree in Business
                   Management and a minor in Asian Studies.
                 </p>
