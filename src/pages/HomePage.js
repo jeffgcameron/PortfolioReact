@@ -23,7 +23,7 @@ import Quiz from "../Images/Quiz.webp"
 import projects from "../projects.json";
 import headers from "../headers.json";
 
-const images = [GroceryGrab, CineMunch, DevDash, DCS, Tech, Directory, ReadMe, Password, Quiz];
+const images = [DCS, GroceryGrab, CineMunch, DevDash, Tech, Directory, ReadMe, Password, Quiz];
 
 class HomePage extends Component {
   state = {
