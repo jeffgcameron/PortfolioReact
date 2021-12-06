@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "name": "Destination Connection",
+        "description": "Boutique destination management provider.",
+        "site": "https://destinationconnection.services/",
+        "github": "https://github.com/jeffgcameron/DestinationConnection",
+        "problem": "Travelling can be stressful, especially with big groups. Stop worrying and contact Destination Connection for the group trip of a lifetime!",
+        "tech": "Javascript, HTML, CSS, FormSubmit, SEO, and Bootstrap"
+    },
+    {
+        "id": 2,
         "name": "Grocery Grab",
         "description": "GroceryGrab allows users to create and save a grocery list.",
         "site": "https://tranquil-bastion-55254.herokuapp.com/",
@@ -9,7 +18,7 @@
         "tech": "Node, Sequelize, mySQL, Express, and Handlebars"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "CineMunch",
         "description": "CineMunch helps users choose movies and local restaurant options.",
         "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
@@ -18,7 +27,7 @@
         "tech": "Javascript, Bootstrap, Third Party APIs, and Insomnia"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "DevDash",
         "description": "Social media app that helps connects new developers.",
         "site": "https://devdashboard.herokuapp.com/",
@@ -26,15 +35,7 @@
         "problem": "You just finished your coding bootcamp and are looking to start a new job or project. However, you need some help. Jump on DevDash, grow your network, and find the team that right for you!",
         "tech": "React, Material UI, MongoDB, MERN, and Webpack"
     },
-    {
-        "id": 4,
-        "name": "Destination Connection",
-        "description": "Boutique destination management provider.",
-        "site": "https://destinationconnection.services/",
-        "github": "https://github.com/jeffgcameron/DestinationConnection",
-        "problem": "Travelling can be stressful, especially with big groups. Stop worrying and contact Destination Connection for the group trip of a lifetime!",
-        "tech": "HTML, CSS, FormSubmit"
-    },
+   
     {
         "id": 5,
         "name": "Tech Blog",
