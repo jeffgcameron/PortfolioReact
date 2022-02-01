@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PortfolioReact/static/css/main.a9ed8e64.chunk.css",
-    "main.js": "/PortfolioReact/static/js/main.e50cb01f.chunk.js",
-    "main.js.map": "/PortfolioReact/static/js/main.e50cb01f.chunk.js.map",
+    "main.js": "/PortfolioReact/static/js/main.5837ed8b.chunk.js",
+    "main.js.map": "/PortfolioReact/static/js/main.5837ed8b.chunk.js.map",
     "runtime-main.js": "/PortfolioReact/static/js/runtime-main.b15364e2.js",
     "runtime-main.js.map": "/PortfolioReact/static/js/runtime-main.b15364e2.js.map",
     "static/css/2.f2512455.chunk.css": "/PortfolioReact/static/css/2.f2512455.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/DevDash.509e727d.webp": "/PortfolioReact/static/media/DevDash.509e727d.webp",
     "static/media/Elon.48229ab5.webp": "/PortfolioReact/static/media/Elon.48229ab5.webp",
     "static/media/EmployeeDirectory.761bd6ee.webp": "/PortfolioReact/static/media/EmployeeDirectory.761bd6ee.webp",
+    "static/media/FSNScreenshot.2d4598c0.webp": "/PortfolioReact/static/media/FSNScreenshot.2d4598c0.webp",
     "static/media/GroceryGrab.db7651e2.webp": "/PortfolioReact/static/media/GroceryGrab.db7651e2.webp",
     "static/media/Jeff Cameron Resume.389d98e2.pdf": "/PortfolioReact/static/media/Jeff Cameron Resume.389d98e2.pdf",
     "static/media/Password.3d59752a.webp": "/PortfolioReact/static/media/Password.3d59752a.webp",
@@ -39,6 +40,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.e44f8985.chunk.js",
     "static/css/main.a9ed8e64.chunk.css",
-    "static/js/main.e50cb01f.chunk.js"
+    "static/js/main.5837ed8b.chunk.js"
   ]
 }

@@ -9,6 +9,7 @@ import SectionHeader from "../components/SectionHeaders/index";
 import Form from "../components/Form/index"
 import Footer from "../components/Footer/index"
 
+import FSN from "../Images/FSNScreenshot.webp"
 import GroceryGrab from "../Images/GroceryGrab.webp"
 import CineMunch from "../Images/CineMunch.webp"
 import DevDash from "../Images/DevDash.webp"
@@ -23,7 +24,7 @@ import Quiz from "../Images/Quiz.webp"
 import projects from "../projects.json";
 import headers from "../headers.json";
 
-const images = [DCS, GroceryGrab, CineMunch, DevDash, Tech, Directory, ReadMe, Password, Quiz];
+const images = [FSN,DCS, GroceryGrab, CineMunch, DevDash, Tech, Directory, ReadMe, Password, Quiz];
 
 class HomePage extends Component {
   state = {
