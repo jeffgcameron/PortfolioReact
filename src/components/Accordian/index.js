@@ -123,7 +123,7 @@ class AboutMeAccordian extends React.Component {
         <AccordionDetails>
           <p className="about-me-text">
           Proficient in HTML, CSS, Javascript, React.js, Material UI, JQuery, Bootstrap. <br></br>
-              Working knowledge of MySQL, MongoDB, Node.js, Postman,
+              Working knowledge of Wordpress, MySQL, MongoDB, Node.js, Postman,
               Insomnia, Github, Heroku, Microsoft Office.
           </p>
         

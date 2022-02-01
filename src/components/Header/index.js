@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Switch from '@mui/material/Switch';
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
 import Logo from "../../Images/logogrey.png"
-import Resume from "../../Images/Jeff Cameron Resume.pdf";
+import Resume from "../../Images/JeffGCameronResume.pdf";
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
 import AppsOutlinedIcon from '@mui/icons-material/AppsOutlined';
