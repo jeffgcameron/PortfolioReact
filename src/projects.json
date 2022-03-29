@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "name": "FlowState Nutrition",
+        "name": "FlowState Nutrition (In Development)",
         "description": "Simplyflying nutrition for Athletes.",
         "site": "https://flowstatenutrition.wordpress.com/",
         "github": "https://flowstatenutrition.wordpress.com/",
@@ -10,6 +10,15 @@
     },
     {
         "id": 1,
+        "name": "Holist Living By Ciara (In Development)",
+        "description": "Health Plans That Fit Your Lifestyle",
+        "site": "https://holisticlivingbyciara.squarespace.com/",
+        "github": "https://holisticlivingbyciara.squarespace.com/",
+        "problem": "Contact Ciara at Holistic Living by Ciara to begin your nutritonal journey",
+        "tech": "Squarespace"
+    },
+    {
+        "id": 2,
         "name": "Destination Connection",
         "description": "Boutique destination management provider.",
         "site": "https://destinationconnection.services/",
@@ -18,7 +27,7 @@
         "tech": "Javascript, HTML, CSS, FormSubmit, SEO, and Bootstrap"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Grocery Grab",
         "description": "GroceryGrab allows users to create and save a grocery list.",
         "site": "https://tranquil-bastion-55254.herokuapp.com/",
@@ -27,7 +36,7 @@
         "tech": "Node, Sequelize, mySQL, Express, and Handlebars"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "CineMunch",
         "description": "CineMunch helps users choose movies and local restaurant options.",
         "site": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
@@ -36,7 +45,7 @@
         "tech": "Javascript, Bootstrap, Third Party APIs, and Insomnia"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "DevDash",
         "description": "Social media app that helps connects new developers.",
         "site": "https://devdashboard.herokuapp.com/",
@@ -46,7 +55,7 @@
     },
    
     {
-        "id": 5,
+        "id": 6,
         "name": "Tech Blog",
         "description": "This app allows users to sign in, or sign up, and create blog posts.",
         "site": "https://salty-reef-93783.herokuapp.com/",
@@ -55,7 +64,7 @@
         "tech": "MVC, Sequelize, SQL, Express, and Handlebars"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Employee Directory",
         "description": "Use this Directoy to serach for employees or filter by name.",
         "site": "https://jeffgcameron.github.io/React-Directory/",
@@ -64,7 +73,7 @@
         "tech": "MySQL, Schema, Seeds, InquirerJs, and Javascript"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "README Generator",
         "description": "Generate a professional README file using node.js.",
         "site": "https://vimeo.com/519766263",
@@ -73,7 +82,7 @@
         "tech": "Node, and Javascript"
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Password Generator",
         "description": "Generate a password based on your own chosen criteria.",
         "site": "https://jeffgcameron.github.io/Password-Generator/",
@@ -82,7 +91,7 @@
         "tech": "HTML, CSS, Javascript"
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Quiz",
         "description": "How well do you know me? Take this multiple choice quiz to find out!",
         "site": "https://jeffgcameron.github.io/JavascriptQuiz/",
