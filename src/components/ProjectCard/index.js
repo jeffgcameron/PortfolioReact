@@ -36,12 +36,16 @@ class ProjectCard extends Component {
         </div>
         </div>
         <div className="media">
-                <a target="_blank" rel="noreferrer" href={this.props.site}>
-                  <FontAwesomeIcon
-                    icon={faGlobeAmericas}
-                    className={this.props.isSummer ? "site-link-summer site-link" : "site-link-winter site-link"}
-                  />
-                </a>
+          {(this.props.site === "") 
+            ?''
+            : <a target="_blank" rel="noreferrer" href={this.props.site}>
+              <FontAwesomeIcon
+                icon={faGlobeAmericas}
+                className={this.props.isSummer ? "site-link-summer site-link" : "site-link-winter site-link"}
+              />
+            </a>
+          }
+                
                 <a target="_blank" rel="noreferrer" href={this.props.github}>
                   <FontAwesomeIcon icon={faGithub} className={this.props.isSummer ? "site-link-summer site-link" : "site-link-winter site-link"}/>
                 </a>

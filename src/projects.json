@@ -1,21 +1,21 @@
 [
     {
         "id": 0,
-        "name": "FlowState Nutrition (In Development)",
-        "description": "Simplyflying nutrition for Athletes.",
-        "site": "https://flowstatenutrition.wordpress.com/",
-        "github": "https://flowstatenutrition.wordpress.com/",
-        "problem": "Ready to change your lifestlye habits for the better? Contact FlowState Nutrition and begin a healthier life today!",
-        "tech": "Wordpress"
+        "name": "BuddyUp (In Development)",
+        "description": "Connecting Adventure Partners.",
+        "site": "",
+        "github": "https://github.com/jeffgcameron/BuddyUpReact",
+        "problem": "Need an adventure partner or something to do? Jump on BuddyUp and start exploring!",
+        "tech": "React, SQL, Express, Javascript, SASS, HTML, Material UI, and Bootstrap"
     },
     {
         "id": 1,
-        "name": "Holist Living By Ciara (In Development)",
-        "description": "Health Plans That Fit Your Lifestyle",
-        "site": "https://holisticlivingbyciara.squarespace.com/",
-        "github": "https://holisticlivingbyciara.squarespace.com/",
-        "problem": "Contact Ciara at Holistic Living by Ciara to begin your nutritonal journey",
-        "tech": "Squarespace"
+        "name": "ProCard (Employer)",
+        "description": "Snowsports school management tool for instructors, supervisors and guests.",
+        "site": "https://procard.jacksonhole.com/",
+        "github": "https://github.com/vertsolutions/ProCard",
+        "problem": "Gives instructing staff the organizational tools they need to be successful with client guests.",
+        "tech": "Javascript, HTML, SASS, Trello, GitHub, and Google Meetup."
     },
     {
         "id": 2,
@@ -30,7 +30,7 @@
         "id": 3,
         "name": "Grocery Grab",
         "description": "GroceryGrab allows users to create and save a grocery list.",
-        "site": "https://tranquil-bastion-55254.herokuapp.com/",
+        "site": "",
         "github": "https://github.com/jeffgcameron/GroceryGrab",
         "problem": "Ever get to the grocery store and forget what your supposed to buy? Notes are easy to lose and so 2010. Use Grocery Grab so you'll always keep track of your shopping list!",
         "tech": "Node, Sequelize, mySQL, Express, and Handlebars"
