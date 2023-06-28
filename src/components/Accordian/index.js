@@ -92,13 +92,14 @@ class AboutMeAccordian extends React.Component {
         </p>
         <AccordionDetails>
           <p className="about-me-text">
-            Hi my name is Jeff and I am a web developer living in Jackson, WY. I
-            started coding on my own as a way to challenge myself and learn a
-            new skill. The fusion of creativity and logic sparked my interest
-            and I soon found myself pursuing a new career rather than just a hobby.
+            Hi my name is Jeff Cameron and I am a software developer living in Jackson, WY. 
+            I have three years of coding experience ranging from self teaching, bootcamp education, and profressional experience. 
+            Most recently, I was a software developer for Vert Solutions, a management tool for snowsports schools.  
+            My recent projects include BuddyUp, a social media app that connects individuals looking for outdoor adventure partners, 
+            and STIQRZ, a sticker company that helps people retrieve their lost items through the use of QR codes.
             When I am not coding, I can be found exploring Jackson's surrounding
             mountains and rivers. My favorite hobbies include skiing, mountain
-            biking, rafting, surfing, scuba diving, rollerblading and fly
+            biking, rafting, surfing, snowboarding, scuba diving, rollerblading and fly
             fishing.
           </p>
         </AccordionDetails>
@@ -122,9 +123,9 @@ class AboutMeAccordian extends React.Component {
           </p>
         <AccordionDetails>
           <p className="about-me-text">
-          Proficient in HTML, CSS, Javascript, React.js, Material UI, JQuery, Bootstrap. <br></br>
-              Working knowledge of Wordpress, MySQL, MongoDB, Node.js, Postman,
-              Insomnia, Github, Heroku, Microsoft Office.
+              Proficient in Javascript, React.js, Material UI, JQuery, Bootstrap, Github, HTML, and SASS.  <br></br>
+              Working knowledge of Wordpress, Squarespace, MySQL, MongoDB, Node.js, Postman,
+              Insomnia, Heroku, Figma, Trello, and Microsoft Office.
           </p>
         
         </AccordionDetails>
@@ -143,10 +144,9 @@ class AboutMeAccordian extends React.Component {
         </p>
         <AccordionDetails>
           <p className="about-me-text education-text">
-          I recently completed The University of Denver's full stack coding
-              bootcamp in June, 2021. Before that, I graduated from Elon
-              University in 2016 with a Bachelor's Degree in Business Management
-              and a minor in Asian Studies.
+              Graduate from The University of Denver's full stack coding
+              bootcamp in June, 2021. Business Management major
+              and a minor in Asian Studies from Elon University.
           </p>
         </AccordionDetails>
       </Accordion>
