@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.4b52f146.css",
+    "main.css": "/PortfolioReact/static/css/main.e1773bca.css",
     "main.js": "/PortfolioReact/static/js/main.7b1f36cf.js",
     "static/media/aboutmesummer2.webp": "/PortfolioReact/static/media/aboutmesummer2.05cd260105f1a553c939.webp",
     "static/media/SummerBackground.webp": "/PortfolioReact/static/media/SummerBackground.7cf8fdb2ddde0d2c5316.webp",
@@ -26,11 +26,11 @@
     "static/media/denver.webp": "/PortfolioReact/static/media/denver.ab959dac64a73c395c8e.webp",
     "static/media/Elon.webp": "/PortfolioReact/static/media/Elon.48229ab582222405a49f.webp",
     "index.html": "/PortfolioReact/index.html",
-    "main.4b52f146.css.map": "/PortfolioReact/static/css/main.4b52f146.css.map",
+    "main.e1773bca.css.map": "/PortfolioReact/static/css/main.e1773bca.css.map",
     "main.7b1f36cf.js.map": "/PortfolioReact/static/js/main.7b1f36cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b52f146.css",
+    "static/css/main.e1773bca.css",
     "static/js/main.7b1f36cf.js"
   ]
 }
