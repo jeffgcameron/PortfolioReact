@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioReact/static/css/main.e1773bca.css",
-    "main.js": "/PortfolioReact/static/js/main.76ea6413.js",
+    "main.js": "/PortfolioReact/static/js/main.01f5cedb.js",
     "static/media/aboutmesummer2.webp": "/PortfolioReact/static/media/aboutmesummer2.05cd260105f1a553c939.webp",
     "static/media/SummerBackground.webp": "/PortfolioReact/static/media/SummerBackground.7cf8fdb2ddde0d2c5316.webp",
     "static/media/summerpropic.webp": "/PortfolioReact/static/media/summerpropic.01337254077356a3921a.webp",
@@ -27,10 +27,10 @@
     "static/media/Elon.webp": "/PortfolioReact/static/media/Elon.48229ab582222405a49f.webp",
     "index.html": "/PortfolioReact/index.html",
     "main.e1773bca.css.map": "/PortfolioReact/static/css/main.e1773bca.css.map",
-    "main.76ea6413.js.map": "/PortfolioReact/static/js/main.76ea6413.js.map"
+    "main.01f5cedb.js.map": "/PortfolioReact/static/js/main.01f5cedb.js.map"
   },
   "entrypoints": [
     "static/css/main.e1773bca.css",
-    "static/js/main.76ea6413.js"
+    "static/js/main.01f5cedb.js"
   ]
 }
